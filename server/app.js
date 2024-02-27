@@ -5,7 +5,7 @@ const userRoutes = require('./routes/user');
 require("dotenv").config();
 
 const corsOptions={
-    origin:"http://localhost:3000"
+    origin:"https://sparegood-1.onrender.com/"
 }
 
 
