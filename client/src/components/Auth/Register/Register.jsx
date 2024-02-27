@@ -128,7 +128,7 @@ const Register = () => {
               <p className="text-sm text-center  text-black dark:black">
                 Already have an account?{' '}
                 <a
-                  href="https://sparegood-1.onrender.com/login"
+                  href="/login"
                   className="font-medium text-primary-600 hover:underline dark:text-primary-500"
                 >
                   Login

@@ -89,7 +89,7 @@ const Login = () => {
                             <p className="text-sm text-center font-medium text-gray-500 dark:text-black">
                                 New to MyApp?{' '}
                                 <a
-                                    href="https://sparegood-1.onrender.com/register"
+                                    href="/register"
                                     className="font-medium text-primary-600 hover:underline dark:text-primary-500"
                                 >
                                     Sign Up
