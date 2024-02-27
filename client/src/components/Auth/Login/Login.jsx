@@ -21,7 +21,7 @@ const Login = () => {
         }
 
         try {
-            const response = await axios.post('https://sparegood.onrender.com/api/login', formData);
+            const response = await axios.post('https://sparegood.onrender.com/login', formData);
             console.log(response.data);
             alert("Login successful");
 
@@ -89,7 +89,7 @@ const Login = () => {
                             <p className="text-sm text-center font-medium text-gray-500 dark:text-black">
                                 New to MyApp?{' '}
                                 <a
-                                    href="/register"
+                                    href="https://sparegood-1.onrender.com/register"
                                     className="font-medium text-primary-600 hover:underline dark:text-primary-500"
                                 >
                                     Sign Up
