@@ -21,7 +21,7 @@ const Login = () => {
         }
 
         try {
-            const response = await axios.post('https://sparegood.onrender.com/login', formData);
+            const response = await axios.post('https://sparegood.onrender.com/api/login', formData);
             console.log(response.data);
             alert("Login successful");
 

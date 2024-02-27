@@ -17,7 +17,7 @@ const Register = () => {
     e.preventDefault();
     if (validateForm()) {
       try {
-        const response = await axios.post('https://sparegood.onrender.com/signup', formData);
+        const response = await axios.post('https://sparegood.onrender.com/api/signup', formData);
         console.log(response.data);
         alert("Registration successful");
         window.location.replace('/login');
