@@ -9,7 +9,7 @@ import Home from './components/Home/Home';
 function App() {
   return (
     
-    <Router>
+    <Router basename='/tothepoint_login'>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} /> 
