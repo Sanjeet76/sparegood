@@ -20,7 +20,7 @@ export default function Home() {
         <div className=' w-full md:w-1/2  relative h-screen text-bottom'>
             <div className='absolute inset-x-0 bottom-0  text-white p-5'>
                 <h3 className='text-4xl font-bold py-5'>SpareGood</h3>
-                <p className='text-base  font-normal  text-left '>Canada's first round up app uniquely designed to<br />
+                <p className='text-base  font-normal tracking-wide   text-left '>Canada's first round up app uniquely designed to<br />
                     donate your spare change to your favorite charities</p>
                 <div className=' '>
                     <button className='text-nowrap  rounded-lg mt-10 bg-green-600 hover:bg-green-500 text-white font-bold py-2 w-full ' onClick={handlelogin}> Sign in  </button>
